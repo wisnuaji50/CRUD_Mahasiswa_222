@@ -7,9 +7,9 @@
 </head>
 <body>
 	<div class="container">
-		<div class="alert alert-info">Data Mahasiswa</div>
+		<div class="alert alert-primary">Data Mahasiswa</div>
 		<table class="table table-bordered">
-			<thead>
+			<thead class="thead-light">
 				<tr>
 					<th>No</th>
 					<th>NIM</th>
@@ -35,8 +35,8 @@
 					<td><?= $row->nama; ?></td>
 					<td><?= $row->prodi; ?></td>
 					<td>
-						<a href="" class="btn btn-danger">Del</a>
-						<a href="" class="btn btn-warning">Edit</a>
+					<a href="hapus.php?nim=<?= $row->nim; ?>" onclick="return confirm('Anda Yakin ing menghapus data ini')" class="btn btn-danger">Del</a>
+						<a href="editmhs.php?nim=<?= $row->nim; ?>" class="btn btn-warning">Edit</a>
 					</td>
 				</tr>
 			<?php } ?>
