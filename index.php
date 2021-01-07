@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div class="container">
-		<div class="alert alert-info">Data Dosen</div>
+		<div class="alert alert-primary">Data Dosen</div>
 		<table class="table table-bordered">
 			<thead>
 				<tr>
@@ -35,8 +35,8 @@
 					<td><?= $row->nama; ?></td>
 					<td><?= $row->alamat; ?></td>
 					<td>
-						<a href="" class="btn btn-danger">Del</a>
-						<a href="" class="btn btn-warning">Edit</a>
+						<a href="hapus.php?nip=<?= $row->nip; ?>" onclick="return confirm('Anda Yakin ing menghapus data ini')" class="btn btn-danger">Del</a>
+						<a href="edit.php?nip=<?= $row->nip; ?>" class="btn btn-warning">Edit</a>
 					</td>
 				</tr>
 			<?php } ?>
