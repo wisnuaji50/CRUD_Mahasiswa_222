@@ -9,7 +9,7 @@
 	<div class="container">
 		<div class="alert alert-primary">Data Dosen</div>
 		<table class="table table-bordered">
-			<thead class="thead-light>
+			<thead class="thead-light">
 				<tr style="background-color: #cccccc;" >
 					<th>No</th>
 					<th>NIP</th>
