@@ -10,7 +10,7 @@
 		<div class="alert alert-primary">Data Mahasiswa</div>
 		<table class="table table-bordered">
 			<thead class="thead-light">
-				<tr>
+				<tr style="background-color: #cccccc;" >
 					<th>No</th>
 					<th>NIM</th>
 					<th>Nama</th>
