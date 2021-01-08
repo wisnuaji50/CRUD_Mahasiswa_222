@@ -9,8 +9,8 @@
 	<div class="container">
 		<div class="alert alert-info">Data Perwakilan</div>
 		<table class="table table-bordered">
-			<thead>
-				<tr>
+			<thead class="thead-light">
+				<tr style="background-color: #cccccc;" >
 					<th>No</th>
 					<th>ID</th>
 					<th>NIP</th>
